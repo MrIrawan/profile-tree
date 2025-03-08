@@ -5,13 +5,13 @@ export default function AppWrapper({ children }: AppWrapperType) {
         <>
         <header className="bg-blue-500 px-4 py-2">
             <div className="container w-full mx-auto">
-                <p className="text-white text-base font-semibold w-fit mx-auto">welcome users! nice to meet you all.</p>
+                <p className="text-white leading-relaxed text-base font-medium w-fit mx-auto">welcome users! nice to meet you all.</p>
             </div>
         </header>
             { children }
-        <footer>
+        <footer className="bg-gray-200 px-4 py-5">
             <div className="container w-full mx-auto">
-                <p>Copyright &copy; 2025 @irawanssfarrel</p>
+                <p className="text-gray-600 leading-relaxed text-base font-medium">Copyright &copy; 2025 @irawanssfarrel</p>
             </div>
         </footer>
         </>
