@@ -1,6 +1,6 @@
 export default function ProfileHeader() {
     return (
-        <section>
+        <section className="mb-36">
             <div className="container w-full">
                 <div className="w-full h-[250px]">
                 <img src="background-mozaic.jpg" alt="" className="w-full h-full object-cover"/>
