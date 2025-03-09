@@ -5,3 +5,7 @@ export type AppWrapperType = {
 export type ContentWrapperType = {
     children: React.ReactNode
 }
+
+export type ProfileBodyType = {
+    children: React.ReactNode
+}
